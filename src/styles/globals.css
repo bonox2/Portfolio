@@ -1,3 +1,18 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@keyframes logoSlide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    
+}
+.logos_animation {
+    display: inline-block;
+    animation: logoSlide 5s   infinite linear;
+    white-space: nowrap;
+}
