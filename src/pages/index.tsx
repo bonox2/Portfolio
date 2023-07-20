@@ -1,5 +1,11 @@
-
+import Header from "@/pageSections/Header";
+import Hero from "@/pageSections/Hero";
 
 export default function Index() {
-    return <h1>Hello, Next.js!</h1>
-  }
+    return (
+        <>
+            <Header /> 
+            <Hero />
+        </>
+    )
+}
